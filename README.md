@@ -4,7 +4,6 @@ A comprehensive guide for setting up a Kubernetes cluster using Kind on an AWS E
 
 ## Overview
 
-This guide covers the steps to:
 - Launch an AWS EC2 instance.
 - Install Docker and Kind.
 - Create a Kubernetes cluster using Kind.
@@ -27,8 +26,39 @@ This guide covers the steps to:
 * A [Node.js](/result) web app which shows the results of the voting in real time
 
 
+## Project Workflow
 
-## Resume Description
+- Developers push application code to GitHub .
+- GitHub Actions builds the application .
+- Kubernetes manifests are updated automatically .
+- Argo CD continuously monitors the Git repository .
+- Argo CD detects changes and synchronizes them with the Kubernetes cluster .
+- Kubernetes deploys the latest application version .
+- Users access the updated application without manual intervention .
+
+## Tech Stack
+
+| Category | Technologies |
+|----------|-------------|
+| Source Code | GitHub |
+| Programming Languages | Python, Node.js, .NET |
+| Database | PostgreSQL |
+| Cache | Redis |
+| Containerization | Docker |
+| Orchestration | Kubernetes |
+| GitOps | Argo CD |
+| Version Control | Git |
+
+##  Applications
+
+- Python Application
+- Node.js Application
+- .NET Application
+
+##  Supporting Services
+
+- PostgreSQL
+- Redis
 
 ### Project Title: 
 
@@ -36,7 +66,7 @@ Automated Deployment of Scalable Applications on AWS EC2 with Kubernetes and Arg
 
 ### Description: 
 
-Led the deployment of scalable applications on AWS EC2 using Kubernetes and Argo CD for streamlined management and continuous integration. Orchestrated deployments via Kubernetes dashboard, ensuring efficient resource utilization and seamless scaling.
+Led the deployment of scalable applications on AWS EC2 using Kubernetes and Argo CD for streamlined management and continuous integration. Orchestrated deployments via Kubernetes dashboard, ensuring efficient resource utilization and seamless scaling .
 
 ### Key Technologies:
 
