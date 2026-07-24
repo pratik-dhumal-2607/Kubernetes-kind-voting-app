@@ -1,4 +1,4 @@
-# Kubernetes Kind Voting App and Configure Argo CD 
+## Kubernetes Kind Voting Application Deploy using  Argo CD and Github 
 
 A comprehensive guide for setting up a Kubernetes cluster using Kind on an AWS EC2 instance, installing and configuring Argo CD, and deploying applications using Argo CD.
 
